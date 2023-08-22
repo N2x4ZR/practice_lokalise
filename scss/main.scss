@@ -1,13 +1,23 @@
 @import "./var.scss";
-@import "./fonts.scss";
 @import "./functions.scss";
+@import "./fonts.scss";
 @import "./navbar.scss";
 @import "./buttons.scss";
 
 :root {
-  --bs-font-sans-serif: 'GraphikLCG', 'serif';
+  --bs-font-sans-serif: 'GraphikLCG-Regular', 'serif';
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  --bs-gutter-x: #{toRem(102)};
+.bg-light-orange {
+  background-color: $light-orange;
+}
+
+.img {
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+}
+
+.second-section {
+  padding: 100px 0;
 }

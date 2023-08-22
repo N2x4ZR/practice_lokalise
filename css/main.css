@@ -1,7 +1,68 @@
-@font-face {
-  font-family: "GraphikLCG";
-  src: url(../assets/font/GraphikLCG-Regular.woff);
+.w120 {
+  width: toRem(120);
 }
+
+.w160 {
+  width: toRem(160);
+}
+
+.mw-720 {
+  max-width: toRem(720);
+}
+
+@font-face {
+  font-family: GraphikLCG-Regular;
+  src: url("../assets/font/GraphikLCG-Regular.woff") format("woff"), url("../assets/font/GraphikLCG-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: GraphikLCG-Semibold;
+  src: url("../assets/font/GraphikLCG-Semibold.woff") format("woff"), url("../assets/font/GraphikLCG-Semibold.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  color: #000000;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.0625rem;
+  font-family: "GraphikLCG-Semibold", "serif";
+  line-height: 4.375rem; /* 107.692% */
+}
+
+h2 {
+  font-size: 3.125rem;
+  font-family: "GraphikLCG-Semibold", "serif";
+  line-height: 3.75rem; /* 120% */
+}
+
+.subtitle2 {
+  font-size: 1.5625rem;
+  font-family: "GraphikLCG-Regular", "serif";
+  line-height: 2.1875rem; /* 140% */
+}
+
+.body4 {
+  font-size: 0.9375rem;
+  font-family: "GraphikLCG-Regular", "serif";
+  line-height: 1.5625rem; /* 166.667% */
+}
+
+.mw-720 {
+  max-width: 45rem;
+}
+
 .navbar {
   --bs-navbar-padding-y: 1.5625rem;
   --bs-nav-link-font-size: 0.9375rem;
@@ -47,21 +108,38 @@
 }
 
 .btn {
-  width: 100%;
-  max-width: 120px;
+  font-family: "GraphikLCG-Semibold", "serif";
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
-  --bs-btn-font-family: ;
+  --bs-btn-font-family: 16;
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
   --bs-btn-border-radius: 0;
 }
 
-:root {
-  --bs-font-sans-serif: "GraphikLCG", "serif";
+.w120 {
+  width: 7.5rem;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  --bs-gutter-x: 6.375rem;
+.w160 {
+  width: 10rem;
+}
+
+:root {
+  --bs-font-sans-serif: "GraphikLCG-Regular", "serif";
+}
+
+.bg-light-orange {
+  background-color: #FF9C7D;
+}
+
+.img {
+  width: 100%;
+  max-width: 128px;
+  height: auto;
+}
+
+.second-section {
+  padding: 100px 0;
 }

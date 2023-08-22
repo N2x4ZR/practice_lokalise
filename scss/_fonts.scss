@@ -1,18 +1,63 @@
-// @mixin font-style($font-type, $font-weight) {
-//   $woff: "woff";
-//   $woff2: "woff2";
-
-//   $pathToFont: "../assets/font/" + $font-type;
-//   @font-face {
-//     font-family: $font-type;
-//     src: url($pathToFont + "." + $woff) format($woff), url($pathToFont + "." + $woff2) format($woff2);
-//   }
-// }
-
-
-
-
-@font-face {
-  font-family: 'GraphikLCG';
-  src: url(../assets/font/GraphikLCG-Regular.woff);
+@mixin font-face($font-type, $font-weight) {
+  $woff: "woff";
+  $woff2: "woff2";
+  $pathToFont: "../assets/font/" + $font-type;
+  @font-face {
+    font-family: $font-type;
+    src: url($pathToFont + "." + $woff) format($woff), 
+    url($pathToFont + "." + $woff2) format($woff2);
+    font-weight: $font-weight;
+    font-style: normal;
+  }
 }
+
+@include font-face(GraphikLCG-Regular, 400);
+@include font-face(GraphikLCG-Semibold, 500);
+
+body {
+  color: $black;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+}
+h1 {
+  font-size: toRem($fs-65);
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  line-height: toRem(70); /* 107.692% */
+}
+h2 {
+  font-size: toRem($fs-50);
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  line-height: toRem(60); /* 120% */
+}
+.subtitle2 {
+  font-size: toRem($fs-25);
+  font-family: 'GraphikLCG-Regular', 'serif';
+  line-height: toRem(35); /* 140% */
+}
+.body4 {
+  font-size: toRem($fs-15);
+  font-family: 'GraphikLCG-Regular', 'serif';
+  line-height: toRem(25); /* 166.667% */
+}
+
+.mw-720 {
+  max-width: toRem(720);
+}
+
+// $fs-65: 65; //H1
+// $fs-50: 50; //H2
+// $fs-50: 40; //H3
+// $fs-35: 35; //H4
+// $fs-30: 30; //Subtitle1
+// $fs-25: 25; //Subtitle2
+// $fs-20: 20; //body1
+// $fs-18: 18; //body2
+// $fs-16: 16; //body3
+// $fs-15: 15; //body4
+// $fs-12: 12; //body5
