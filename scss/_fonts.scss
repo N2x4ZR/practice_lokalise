@@ -17,7 +17,6 @@
 body {
   color: $black;
 }
-
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0;
@@ -39,6 +38,18 @@ h2 {
   font-size: toRem($fs-25);
   font-family: 'GraphikLCG-Regular', 'serif';
   line-height: toRem(35); /* 140% */
+}
+.body1 {
+  font-size: toRem($fs-20);
+  font-family: 'GraphikLCG-Regular', 'serif';
+  line-height: toRem(30); /* 150% */
+}
+.body1a {
+  color: $black;
+  font-size: toRem($fs-20);
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  line-height: toRem(30); /* 150% */
+  text-decoration: none;
 }
 .body4 {
   font-size: toRem($fs-15);
