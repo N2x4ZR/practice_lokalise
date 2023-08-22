@@ -1,0 +1,13 @@
+@import "./var.scss";
+@import "./fonts.scss";
+@import "./functions.scss";
+@import "./navbar.scss";
+@import "./buttons.scss";
+
+:root {
+  --bs-font-sans-serif: 'GraphikLCG', 'serif';
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: #{toRem(102)};
+}

@@ -1,0 +1,18 @@
+// @mixin font-style($font-type, $font-weight) {
+//   $woff: "woff";
+//   $woff2: "woff2";
+
+//   $pathToFont: "../assets/font/" + $font-type;
+//   @font-face {
+//     font-family: $font-type;
+//     src: url($pathToFont + "." + $woff) format($woff), url($pathToFont + "." + $woff2) format($woff2);
+//   }
+// }
+
+
+
+
+@font-face {
+  font-family: 'GraphikLCG';
+  src: url(../assets/font/GraphikLCG-Regular.woff);
+}

@@ -1,0 +1,11 @@
+.navbar {
+  --bs-navbar-padding-y: #{toRem(25)};
+  --bs-nav-link-font-size: #{toRem($fs-15)};
+  // colors
+  --bs-navbar-color: #{$black};
+}
+
+.navbar-nav {
+  gap: 0 toRem(24);
+}
+
