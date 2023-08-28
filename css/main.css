@@ -262,6 +262,10 @@ ul, ol {
   height: auto;
 }
 
+.imglogo {
+  padding: 32px;
+}
+
 .img160 {
   width: 100%;
   max-width: 10rem;
@@ -314,8 +318,8 @@ ul, ol {
   padding: 6.25rem 0 3.125rem 0;
 }
 
-.gap-250 {
-  gap: 15.625rem;
+.gap-100 {
+  gap: 6.25rem;
 }
 
 .gap-80 {
