@@ -8,20 +8,86 @@
   --bs-font-sans-serif: 'GraphikLCG-Regular', 'serif';
 }
 
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bg-brown {
+  background-color: $brown;
+}
+.bg-light-blue {
+  background-color: $light-blue;
+}
 .bg-light-orange {
   background-color: $light-orange;
+}
+.bg-light-yello {
+  background-color: $light-yello;
 }
 
 .img {
   width: 100%;
-  max-width: 128px;
+  max-width: toRem(128);
   height: auto;
 }
-
+.img160 {
+  width: 100%;
+  max-width: toRem(160);
+  height: auto;
+}
+.img180 {
+  width: 100%;
+  max-width: toRem(180);
+  height: auto;
+}
+.h36{
+  max-height: toRem(36);
+}
+// sections
 .second-section {
-  padding: 100px 0;
+  padding: toRem(100) 0;
+}
+.thrid-section {
+  padding: toRem(100) 0 toRem(150) 0;
+}
+.fourth-section {
+  padding: toRem(120) 0 toRem(150) 0;
+}
+.fifth-section {
+  padding: toRem(150) 0 toRem(200) 0;
+}
+.sixth-section {
+  padding: toRem(50) 0 toRem(100) 0;
+}
+.seventh-section {
+  padding: toRem(90) 0;
+}
+.eighth-section {
+  padding: toRem(165) 0;
+}
+.nineth-section {
+  padding: toRem(120) 0 toRem(160) 0;
+}
+.footer {
+  padding: toRem(100) 0 toRem(50) 0;
 }
 
-.thrid-section {
-  padding: 100px 0;
+
+// gap 
+.gap-250 {
+  gap: toRem(250);
+}
+.gap-80 {
+  gap: toRem(80);
+}
+.mb-80 {
+  margin-bottom: toRem(80);
+}
+.pb-95 {
+  padding-bottom: toRem(95);
+}
+.pt-50 {
+  padding-top: toRem(50);
 }

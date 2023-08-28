@@ -34,12 +34,37 @@ h2 {
   font-family: 'GraphikLCG-Semibold', 'serif';
   line-height: toRem(60); /* 120% */
 }
+h3 {
+  color: #000;
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  font-size: toRem($fs-40);
+  line-height: toRem(50); /* 125% */
+}
+h4 {
+  font-size: toRem($fs-35);
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  line-height: toRem(50);
+}
+.subtitle1 {
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  font-size: toRem($fs-30);
+  line-height: toRem(40); /* 133.333% */
+}
 .subtitle2 {
   font-size: toRem($fs-25);
   font-family: 'GraphikLCG-Regular', 'serif';
   line-height: toRem(35); /* 140% */
 }
+.subtitle2a {
+  color: #000;
+  text-align: center;
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  font-size: toRem($fs-25);
+  font-weight: 600;
+  line-height: toRem(35); /* 140% */
+}
 .body1 {
+  color: $black;
   font-size: toRem($fs-20);
   font-family: 'GraphikLCG-Regular', 'serif';
   line-height: toRem(30); /* 150% */
@@ -47,18 +72,55 @@ h2 {
 .body1a {
   color: $black;
   font-size: toRem($fs-20);
-  font-family: 'GraphikLCG-Semibold', 'serif';
+  font-family: 'GraphikLCG-Regular', 'serif';
   line-height: toRem(30); /* 150% */
   text-decoration: none;
 }
+
+.body2 {
+  font-size: toRem($fs-18);
+  font-weight: 400;
+  line-height: toRem(25); /* 138.889% */
+}
+
 .body4 {
+  color: $black;
   font-size: toRem($fs-15);
   font-family: 'GraphikLCG-Regular', 'serif';
   line-height: toRem(25); /* 166.667% */
+  text-decoration: none;
+}
+.body5 {
+  color: #000;
+  font-family: 'GraphikLCG-Regular', 'serif';
+  font-size: toRem($fs-12);
+  line-height: toRem(15);
+}
+.bolt {
+  font-family: 'GraphikLCG-Semibold', 'serif';
+  font-style: normal;
+  font-weight: 600;
 }
 
+
+// container-text
+.mw-800 {
+  max-width: toRem(800);
+}
 .mw-720 {
   max-width: toRem(720);
+}
+.mw-500 {
+  max-width: toRem(500);
+}
+.mw-400 {
+  max-width: toRem(400);
+}
+.mw-320 {
+  max-width: toRem(320);
+}
+.mw-300 {
+  max-width: toRem(300);
 }
 
 // $fs-65: 65; //H1
