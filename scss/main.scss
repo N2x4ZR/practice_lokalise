@@ -32,6 +32,9 @@ ul, ol {
   max-width: toRem(128);
   height: auto;
 }
+.imglogo {
+  padding: 32px;
+}
 .img160 {
   width: 100%;
   max-width: toRem(160);
@@ -76,8 +79,8 @@ ul, ol {
 
 
 // gap 
-.gap-250 {
-  gap: toRem(250);
+.gap-100 {
+  gap: toRem(100);
 }
 .gap-80 {
   gap: toRem(80);
