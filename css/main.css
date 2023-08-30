@@ -266,6 +266,12 @@ ul, ol {
   padding: 32px;
 }
 
+.img80 {
+  width: 100%;
+  max-width: 5rem;
+  height: auto;
+}
+
 .img160 {
   width: 100%;
   max-width: 10rem;

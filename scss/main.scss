@@ -35,6 +35,11 @@ ul, ol {
 .imglogo {
   padding: 32px;
 }
+.img80 {
+  width: 100%;
+  max-width: toRem(80);
+  height: auto;
+}
 .img160 {
   width: 100%;
   max-width: toRem(160);
