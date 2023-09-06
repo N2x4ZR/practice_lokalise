@@ -240,6 +240,11 @@ ul, ol {
   list-style: none;
 }
 
+li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .bg-brown {
   background-color: #DABC98;
 }

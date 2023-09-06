@@ -14,6 +14,11 @@ ul, ol {
   list-style: none;
 }
 
+li > a {
+  text-decoration: none;
+  color: $black;
+}
+
 .bg-brown {
   background-color: $brown;
 }
